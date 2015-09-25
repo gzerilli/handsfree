@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="companies">
+        <item>intuit</item>
+        <item>Gilt</item>
+        <item>Snapfish</item>
+    </string-array>
+
+    <array
+        name="images">
+        <item>@drawable/intuit</item>
+        <item>@drawable/gilt</item>
+        <item>@drawable/snapfish</item>
+   </array>
+
+    <string-array
+        name="urls">
+        <item>intuit.com</item>
+        <item>gilt.com</item>
+        <item>snapfish.com</item>
+    </string-array>
+
+    <string-array
+        name="companyID">
+        <item>P73373771</item>
+        <item>P65263814</item>
+        <item>P00000000</item>
+    </string-array>
+</resources>

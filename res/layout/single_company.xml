@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/company_list_row_height"
+                android:layout_margin="@dimen/company_list_row_margin"
+                android:background="@drawable/bg_list_item">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intuit"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/company_list_row_padding"
+        android:background="@drawable/bg_company_gradient">
+
+
+        <TextView
+            android:id="@+id/siteName"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/company_list_row_text"
+            android:textSize="@dimen/company_list_row_name_text"
+            android:textStyle="bold"
+            android:text="intuit"/>
+        <TextView
+            android:id="@+id/companyID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/lp_list_row_text"
+            android:text="3332"
+            android:layout_alignParentBottom="true"/>
+
+        <TextView
+            android:id="@+id/siteUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/company_list_row_text"
+            android:text="www.Intuit.com"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

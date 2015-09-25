@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="company_list_row_text">#efefef</color>
+    <color name="lp_list_row_text">#66ccff</color>
+    <color name="welcomeColor">#800080</color>
+    <color name="chatArea">#ffa4d3e1</color>
+</resources>
